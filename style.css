@@ -11,7 +11,7 @@
 
 #hero-section {
   background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0.25)),
-    url(https://github.com/AliasVel/AliasVel.github.io/blob/main/img/tech-city.jpg);
+    url(https://github.com/AliasVel/AliasVel.github.io/main/img/tech-city.jpg);
   background-size: cover;
   background-position: center;
   /* Change this values to work for you. */
