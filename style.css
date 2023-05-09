@@ -1,0 +1,250 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+#nav-space {
+  padding-bottom: 60px;
+}
+
+#navbar-spy {
+  box-shadow: 2px 2px #33266e;
+  min-height: 60px
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0.25)),
+    url(img/tech-city.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Change this values to work for you. */
+  padding: clamp(100px, 80vh, 200px) 0;
+  min-height: 80vh;
+  color: #2d5f5d;
+  text-shadow: 2px 2px #33266e;
+  position: relative;
+}
+
+#profile-img {
+  background-image: url(img/navi.jpg);
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #2d5f5d;
+  box-shadow: 2px 2px #33266e;
+  
+  z-index: 200;
+  /* Change this values to work for you. */
+  margin: clamp(10px, 20vh, 100px) auto;
+  /* Change this values to work for you. */
+  height: clamp(100px, 20vh, 300px);
+  /* Change this values to work for you. */
+  width: clamp(100px, 20vh, 300px);
+  transition-duration: 1.5s;
+}
+
+#profile-img:hover {  /* SIZZLE */
+  transform: rotate(-360deg);
+}
+
+#hero-section h2 {
+  /* How to center text? */
+  text-align: center;
+  position: relative; top: -65px;
+  font-size: clamp(2rem, 10vw, 4rem);
+  font-family: 'Roboto slab', sans-serif;
+  /* Add responsive vertical margins via clamp? */
+  
+}
+
+#hero-section p {
+  text-align: center;
+  position: relative; top: -65px;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  letter-spacing: 1px;
+  color: #BEBEBE;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#future {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px
+}
+
+h3 {
+  transition-duration: .5s;
+}
+
+h3:hover {
+  transform: skew(-45deg) rotate(360deg); /* SIZZLE */
+}
+
+#mission-section { 
+  background-color: #1e4258;
+  padding-top: 60px;
+}
+
+#mission-section h3 {
+ text-align: center;
+ font-size: clamp(1rem, 10vw, 2.5rem);
+ letter-spacing: 1px;
+ color: #BEBEBE;
+ font-family: 'Roboto slab', sans-serif;
+}
+
+#mission-section p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  color: #BEBEBE;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#skills-section {
+  background-color: #494b68;
+  padding-top: 60px;
+}
+
+#skills-section h3 {
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 2.5rem);
+  letter-spacing: 1px;
+  color: #BEBEBE;
+  padding-top: 20px;
+  font-family: 'Roboto slab', sans-serif;
+}
+
+#skills-section p {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  letter-spacing: 1px;
+  color: #BEBEBE;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#skills-section img {
+  padding-top: 20px;
+}
+
+#html {
+  width: 100%;
+}
+
+#bs {
+  width: 100%;
+}
+
+#css {
+  width: 100%;
+}
+
+#java {
+  width: 100%;
+}
+
+#inspiration-section {
+  background-color: #022140;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#inspiration-section h3 {
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 2.5rem);
+  letter-spacing: 1px;
+  color: #BEBEBE;
+  font-family: 'Roboto slab', sans-serif;
+}
+
+.carousel-item img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  opacity: .8;
+}
+
+#img1 {
+ text-shadow: 3px 3px #13433e;
+ letter-spacing: 3px;
+}
+
+#img2 {
+ text-shadow: 3px 3px #494b68;
+ letter-spacing: 3px;
+}
+
+#img3 {
+  text-shadow: 2px 2px #b7410e;
+  letter-spacing: 3px;
+}
+
+#cap1 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#cap2 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#cap3 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#contact-section {
+  background-color: #2d5f5d;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#contact-section h3 {
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 2.5rem);
+  letter-spacing: 1px;
+  color: #BEBEBE;
+  font-family: 'Roboto slab', sans-serif;
+}
+
+#email {
+  font-size: clamp(4rem, 10vw, 8rem);
+}
+
+#twitch {
+  font-size: clamp(4rem, 10vw, 8rem);
+}
+
+#linkedin {
+  font-size: clamp(4rem, 10vw, 8rem);
+}
+
+#contact-section a {
+  color: #022140;
+  overflow: hidden;
+}
+
+a:visited {
+  color: #33266e;
+}
+
+a:hover {
+  
+  filter: brightness(120%) saturate(120%);
+  
+}
+
+footer {
+  text-align: center;
+  background-color:  #022140;
+  color: #BEBEBE;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#home-logo {
+  transition: transform .7s ease-in-out;
+}
+
+#home-logo:hover {
+  transform: rotate(360deg);
+}
