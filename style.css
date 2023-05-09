@@ -47,7 +47,8 @@
 #hero-section h2 {
   /* How to center text? */
   text-align: center;
-  position: relative; top: -65px;
+  position: relative; 
+  top: -65px;
   font-size: clamp(2rem, 10vw, 4rem);
   font-family: 'Roboto slab', sans-serif;
   /* Add responsive vertical margins via clamp? */
@@ -66,7 +67,7 @@
 #future {
   width: 100%;
   padding-bottom: 40px;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 h3 {
